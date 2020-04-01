@@ -38,7 +38,7 @@ return s;
 
 
 }
- throw runtime_error("The word " + word + " is not in the text");
+ throw runtime_error(word+"is not a full word in the sentence");
 return "Did not find the word '"+word+"' in the text";
 }
 }
